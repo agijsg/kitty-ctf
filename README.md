@@ -49,7 +49,7 @@ With the find command
 ```bash
 find / -name *richard* 2> /dev/null
 ```
-I was able to discovered a file :floppy_disk: : 
+I was able to discover a file :floppy_disk: : 
 ```bash
 /media/USB-14B7/richard.img
 ```
